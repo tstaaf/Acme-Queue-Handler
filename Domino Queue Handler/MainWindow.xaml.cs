@@ -349,5 +349,11 @@ namespace Domino_Queue_Handler
                 Console.WriteLine(err.Message);
             }
         }
+
+        private void IgnoreList_Click(object sender, RoutedEventArgs e)
+        {
+            Windows.ignoreListWindow igw = new Windows.ignoreListWindow();
+            igw.Show();
+        }
     }
 }

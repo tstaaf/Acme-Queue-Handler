@@ -36,11 +36,11 @@
                 <fa:ImageAwesome Icon="Minus" Margin="6" Foreground="White"/>
             </Button>
         </StackPanel>
-        <Button Grid.Row="0" Grid.Column="4" Margin="10" HorizontalContentAlignment="Center" Foreground="White"  MaxHeight="50" MaxWidth="50" Visibility="Hidden">
+        <Button Grid.Row="2" Grid.Column="4" Margin="10" HorizontalContentAlignment="Center" Background="#ca0b00" Foreground="White" MaxHeight="50" MaxWidth="50" VerticalAlignment="Bottom" Click="IgnoreList_Click">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="5" ShadowDepth="2"/>
             </Button.Effect>
-            <fa:ImageAwesome Icon="Gear" Margin="4" Foreground="White"/>
+            <fa:ImageAwesome Icon="List" Margin="4" Foreground="White"/>
         </Button>
         
         <Viewbox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="10">
